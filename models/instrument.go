@@ -14,4 +14,9 @@ type Instrument struct {
 	CreationTimestamp   int64   `json:"creation_timestamp"`
 	ContractSize        float64 `json:"contract_size"`
 	BaseCurrency        string  `json:"base_currency"`
+
+	BlockTradeCommission string `json:"block_trade_commission"`
+	MakerCommission      string `json:"maker_commission"`
+	TakerCommission      string `json:"taker_commission"`
+	Leverage             string `json:"leverage"`
 }
