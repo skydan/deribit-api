@@ -1,8 +1,8 @@
 package deribit
 
 import (
-	"github.com/frankrap/deribit-api/models"
 	"github.com/json-iterator/go"
+	"github.com/skydan/deribit-api/models"
 	"log"
 	"strings"
 )
